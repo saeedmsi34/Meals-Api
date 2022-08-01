@@ -1,0 +1,253 @@
+*
+{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    cursor:pointer;
+    overflow: hidden;
+
+}
+.home{
+ height:100vh;
+
+    background-image: url(imgs/rachel-park-hrlvr2ZlUNk-unsplash.jpg);
+    background-size: cover;
+
+
+}
+.navbar{
+    background-color: rgba(0,0,0,.5);
+    
+}
+.lins{
+    color: white;
+}
+.lins:hover{
+color:chocolate !important;
+transition: all 1s !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+.navbar-brand:hover{
+    color:chocolate !important;
+    transition: all 1s !important;
+
+}
+.nav-link{
+    color: rgb(226, 222, 222) !important;
+}
+.nav-link:hover{
+    color:rgb(221, 164, 89) !important;
+    transition: all 1s;
+}
+.bar1,
+.bar2,
+.bar3{
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+.change .bar2 {
+    opacity: 0;
+}
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -6px);
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+.navbar-toggler:focus{
+    border: none !important;
+    box-sizing:unset;
+    box-shadow: none !important;
+
+}
+
+
+.imgs{
+    height: 180px;
+ }
+
+
+
+.row{
+    background-color: rgba(0, 0,0 ,.6 );
+  
+}
+h6{
+    padding-top:10px ;
+    color: rgb(250, 245, 235);
+    font-size: 22px;
+}
+
+
+/* loading */
+#bt1{
+    box-shadow: none;
+    border: none;
+ }
+ .Loadding{
+     position:fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgb(250, 245, 235) !important;
+     z-index: 999;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+ .loa{
+     color: #de8342;
+
+ }
+/* ///////////// */
+/* ///////////////////btnUp///////////////////// */
+.btnUp{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+  background-color: rgb(97, 133, 202);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    z-index: 8888 !important;
+    border: none !important;
+    transition: all .4s;
+}
+.btnUp:hover{
+    background-color: #de8342;
+
+}
+.up1{
+    color:white;
+    font-size: 20px;
+}
+
+
+
+
+
+@media screen and (max-width:568px)
+{
+    .col-md-3 
+    {
+        width: 100%;
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (min-width:569px)and (max-width:768px)
+{
+    .col-md-3
+    {
+        width: 50%;
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (min-width:769px)and (max-width:992px)
+{
+    .col-md-3 
+    {
+        width: 50%;
+        font-size: 25px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
